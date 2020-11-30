@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SimpleInterestActiity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etPrinciple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter principle"
+        android:textColorHint="@color/colorAccent"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter rate"
+        android:textColorHint="@color/colorAccent"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter time"
+        android:textColorHint="@color/colorAccent"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnSI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate SI"
+        android:shadowColor="@color/colorAccent"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="0"
+        android:layout_margin="10dp"/>
+</LinearLayout>
