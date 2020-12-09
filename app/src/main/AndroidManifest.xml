@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".StyleActivity"></activity>
         <activity android:name=".FloatingActionButtonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,10 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SpinnerActivity">
-
-        </activity>
-        <activity android:name=".ConstraintDesignActivity"></activity>
+        <activity android:name=".SpinnerActivity"></activity>
+        <activity android:name=".ConstraintDesignActivity" />
         <activity android:name=".RelativeColorLayout" />
         <activity android:name=".RelativeDesignLayout" />
         <activity android:name=".RelativeLayout" />
