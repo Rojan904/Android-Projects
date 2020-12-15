@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DateCalculateCalendarActivity">
+
+    <EditText
+        android:id="@+id/etJoinDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter date of joining"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_below="@+id/etJoinDate"
+        android:id="@+id/etDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter DOB"
+        android:cursorVisible="false"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Output"
+        android:layout_below="@+id/etDOB"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvYears"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvOutput"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvYears"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
